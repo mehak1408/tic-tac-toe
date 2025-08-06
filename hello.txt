@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .profile-img {
+      width: 200px;
+      border-radius: 50%;
+    }
+    .section {
+      margin-top: 20px;
+    }
+    form {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Hello, I'm Mehak!</h1>
+  <img src="https://via.placeholder.com/200" alt="Profile Photo" class="profile-img">
+
+  <div class="section">
+    <h2>About Me</h2>
+    <p>I am a web development enthusiast learning HTML, CSS, and JavaScript. I love creating beautiful and accessible websites.</p>
+  </div>
+
+  <div class="section">
+    <h2>My Skills</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript (Basics)</li>
+      <li>Python & C++</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+</body>
+</html>
